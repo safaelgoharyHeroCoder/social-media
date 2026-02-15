@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Impact of Social Media</title>
+
+<!-- Bootstrap 3 CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+body{
+    background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') no-repeat center center fixed;
+    background-size: cover;
+    color:white;
+}
+.overlay{
+    background: rgba(0,0,0,0.75);
+    padding:20px;
+}
+.section{
+    padding:50px 0;
+}
+.panel{
+    color:black;
+}
+.media img{
+    width:100px;
+}
+</style>
+</head>
+<body>
+
+<div class="overlay">
+
+<!-- Navbar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Social Media</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Adults</a></li>
+      <li><a href="#">Children</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron text-center" style="background:#6c5ce7;color:white;">
+  <h1>The Impact of Social Media</h1>
+  <p>How it affects adults and children in modern society</p>
+  <button class="btn btn-warning btn-lg">Learn More</button>
+</div>
+
+<!-- Grid Section -->
+<div class="container section">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="panel panel-success">
+        <div class="panel-heading">Positive Effects</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item">Global Communication <span class="badge">+</span></li>
+            <li class="list-group-item">Online Learning</li>
+            <li class="list-group-item">Business Opportunities</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="panel panel-danger">
+        <div class="panel-heading">Negative Effects</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item">Addiction</li>
+            <li class="list-group-item">Low Concentration</li>
+            <li class="list-group-item">Social Isolation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Progress Bars -->
+<div class="container section">
+  <h3>Usage Statistics</h3>
+  <div class="progress">
+    <div class="progress-bar progress-bar-info" style="width:85%">Adults 85%</div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-warning" style="width:70%">Children 70%</div>
+  </div>
+</div>
+
+<!-- Alert -->
+<div class="container">
+  <div class="alert alert-warning">
+    <strong>Warning!</strong> Excessive use may affect mental health.
+  </div>
+</div>
+
+<!-- Media Object -->
+<div class="container section">
+  <h3>User Experience</h3>
+  <div class="media">
+    <div class="media-left">
+      <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e" class="media-object img-circle">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Adult Perspective</h4>
+      <p>Social media helps professionals connect, grow businesses, and learn new skills.</p>
+    </div>
+  </div>
+
+  <div class="media">
+    <div class="media-left">
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" class="media-object img-circle">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Teen Perspective</h4>
+      <p>It provides entertainment and connection but may reduce real-life interaction.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Carousel with 5 Images -->
+<div class="container section">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" style="width:100%">
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" style="width:100%">
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" style="width:100%">
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" style="width:100%">
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" style="width:100%">
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+</div>
+
+<!-- Form -->
+<div class="container section">
+  <h3>Share Your Opinion</h3>
+  <form>
+    <div class="form-group">
+      <label>Name:</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>Your Feedback:</label>
+      <textarea class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">
+      <span class="glyphicon glyphicon-send"></span> Submit
+    </button>
+  </form>
+</div>
+
+<!-- Footer -->
+<div class="well text-center">
+  © 2026 Social Media Awareness Project
+</div>
+
+</div>
+</body>
+</html>
